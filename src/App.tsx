@@ -1,6 +1,7 @@
 import React from 'react';
 import { BrowserRouter, Switch, Route } from 'react-router-dom';
 import routes from '@/routes';
+import 'virtual:windi.css';
 
 const App: React.FC = () => {
   return (
